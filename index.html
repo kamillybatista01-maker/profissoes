@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira de Profissões | Engenharia de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header>
+        <div class="container nav-container">
+            <h1 class="logo">Feira<span>Profissões</span></h1>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">A Profissão</a></li>
+                    <li><a href="#historia">Fatos Históricos</a></li>
+                    <li><a href="#mercado">Panorama e Mercado</a></li>
+                    <li><a href="#creditos">Créditos</a></li>
+                </ul>
+                <button class="menu-btn" id="menuBtn" aria-label="Abrir Menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção 1: Apresentação (Home) -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="badge">Carreira em Destaque</span>
+                    <h2>Engenharia de Software</h2>
+                    <p class="slogan">"Transformando linhas de código em soluções que movem o mundo."</p>
+                    <p class="descricao">
+                        O Engenheiro de Software projeta, desenvolve, testa e mantém sistemas e aplicativos. 
+                        Na rotina diária, trabalha em equipes ágeis resolvendo problemas reais através da lógica e da tecnologia, 
+                        sendo peça fundamental para o funcionamento de hospitais, bancos, escolas e indústrias na sociedade moderna.
+                    </p>
+                    <a href="#mercado" class="btn-primary">Ver Dados do Mercado</a>
+                </div>
+                <div class="hero-img">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" 
+                         alt="Tela de computador exibindo código de programação em ambiente de desenvolvimento">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Fatos Históricos -->
+        <section id="historia" class="section-alt">
+            <div class="container">
+                <h2 class="section-title">Fatos Históricos e Evolução</h2>
+                <p class="section-subtitle">A trajetória da computação e o surgimento da engenharia por trás dos sistemas.</p>
+                
+                <div class="timeline">
+                    <article class="card">
+                        <span class="year">1843 - Origem</span>
+                        <h3>O Primeiro Algoritmo</h3>
+                        <p>A matemática Ada Lovelace escreveu o primeiro algoritmo destinado a ser processado por uma máquina (a Máquina Analítica de Charles Babbage), tornando-se a primeira programadora da história.</p>
+                    </article>
+
+                    <article class="card">
+                        <span class="year">1968 - O Termo Oficial</span>
+                        <h3>A Crise do Software</h3>
+                        <p>Durante a Conferência da OTAN, Margaret Hamilton e outros cientistas cunharam o termo "Engenharia de Software" para trazer rigor matemático e organização aos projetos espaciais, como a missão Apollo 11.</p>
+                    </article>
+
+                    <article class="card">
+                        <span class="year">1990 a 2026 - Era Digital</span>
+                        <h3>Internet, Mobile e Inteligência Artificial</h3>
+                        <p>Com a popularização da Web, smartphones e, mais recentemente, da Inteligência Artificial Generativa e Computação em Nuvem, a profissão se tornou indispensável em todos os continentes.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3: Panorama Atual e Mercado -->
+        <section id="mercado" class="section-normal">
+            <div class="container">
+                <h2 class="section-title">Panorama Atual e Mercado de Trabalho</h2>
+                <p class="section-subtitle">Dados estatísticos, geografia da atuação e projeções econômicas (Matemática, Geografia e Sociologia).</p>
+
+                <!-- Cards de Estatísticas -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>R$ 8.500,00</h3>
+                        <p>Média salarial nacional (Nível Pleno)</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>+15% ao ano</h3>
+                        <p>Crescimento na demanda por profissionais</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>78% Remoto/Híbrido</h3>
+                        <p>Atuação global sem barreiras geográficas</p>
+                    </div>
+                </div>
+
+                <!-- Gráfico Interativo de Empregabilidade -->
+                <div class="chart-box">
+                    <h3>Áreas com Maior Empregabilidade no Setor</h3>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Desenvolvimento Web & Mobile</span><span>42%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" data-width="42%"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Inteligência Artificial & Dados</span><span>28%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" data-width="28%"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Cibersegurança & Cloud</span><span>18%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" data-width="18%"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Sistemas Embarcados & IoT</span><span>12%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" data-width="12%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé / Créditos -->
+    <footer id="creditos">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Projeto Feira de Profissões</h3>
+                <p><strong>Aluna:</strong> Kamilly</p>
+                <p><strong>Turma:</strong> 2º Ano G (2G) | <strong>Instituição:</strong> Colégio Morelli</p>
+                <p><strong>Disciplina:</strong> Programação</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação Rápida</h4>
+                <a href="#home">Topo da Página</a>
+                <a href="#historia">História</a>
+                <a href="#mercado">Dados do Mercado</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 - Portfólio Digital desenvolvido por Kamilly (2G - Morelli).</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
